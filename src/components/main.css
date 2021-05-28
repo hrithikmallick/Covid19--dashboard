@@ -1,0 +1,15 @@
+.myimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mypara {
+  font-size: 20px;
+}
+@media only screen and (max-width: 600px) {
+  .mypara {
+    margin-top: 3vh;
+    line-height: 35px;
+    font-size: 24px;
+  }
+}

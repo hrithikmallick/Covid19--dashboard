@@ -1,0 +1,11 @@
+.rec :hover {
+  background-color: #7cfc00;
+}
+@media only screen and (max-width: 600px) {
+  table {
+    font-size: 10px;
+  }
+  .urlo {
+    display: none;
+  }
+}
