@@ -2,6 +2,7 @@
 import React from 'react';
 import {useEffect,useState} from 'react';
 import './state.css';
+import India from './India';
 
 
 export const Statewise = () => {
@@ -24,9 +25,9 @@ const getCovidData = async ()=>{
    },[])
     return (
       <>
-   
-     <h1 className="text-center display-4">INDIA COVID-19 TRACKER</h1>
-
+  
+     <h1 className="text-center display-4 mb-5">INDIA COVID-19 TRACKER</h1>
+     <India/>
      <table className="table container mt-5  mb-5 shadow-lg">
      <thead>
     <tr className="bg-dark text-white">
@@ -45,6 +46,9 @@ const getCovidData = async ()=>{
         if (curEle.state ==='State Unassigned') {
             return null;
           }
+        else if(curEle.state ==='Total'){
+          return null;
+        }
         return(
             <tr key={index}>
             <th scope="col">{curEle.state}</th>

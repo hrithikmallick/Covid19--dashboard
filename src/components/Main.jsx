@@ -21,7 +21,7 @@ export const Main = () => {
         "
       >
         <div className="col-lg-7 p-3 p-lg-5 pt-lg-3">
-          <h1 className="welcome">Coronavirus disease (COVID-19)</h1>
+          <h1 className="welcome">Coronavirus Disease <i className="fas fa-bacteria"></i></h1>
           <p className="lead mypara">
           Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.
 Most people infected with the COVID-19 virus will experience mild to moderate respiratory illness and recover without requiring special treatment.  Older people, and those with underlying medical problems like cardiovascular disease, diabetes, chronic respiratory disease, and cancer are more likely to develop serious illness.

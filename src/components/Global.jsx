@@ -21,9 +21,9 @@ export const Global = () => {
 
     return (
        <>
-       <div className="container firstCards mb-5">
+       <div className="container firstCards mb-5 text-white">
 
-           <div className="card text-center shadow-lg card1 text-primary" style={{width: '18rem'}}>
+           <div className="card text-center shadow-lg card1 bg-primary" style={{width: '18rem'}}>
                     <div className="card-body">
                         <h4 className="card-title">Total Confirmed</h4>
                         <p className="card-text">{data.TotalConfirmed}</p>
@@ -31,7 +31,7 @@ export const Global = () => {
                     </div>
             </div>
 
-            <div className="card text-center shadow-lg card2 text-success" style={{width: '18rem'}}>
+            <div className="card text-center shadow-lg card2 bg-success" style={{width: '18rem'}}>
                     <div className="card-body ">
                         <h4 className="card-title">Total Recovered</h4>
                         <p className="card-text">{data.TotalRecovered}</p>
@@ -39,7 +39,7 @@ export const Global = () => {
                     </div>
             </div>
 
-            <div className="card text-center shadow-lg card3 text-danger" style={{width: '18rem'}}>
+            <div className="card text-center shadow-lg card3 bg-danger" style={{width: '18rem'}}>
                     <div className="card-body">
                         <h4 className="card-title">Total Deaths</h4>
                         <p className="card-text">{data.TotalDeaths}</p>
